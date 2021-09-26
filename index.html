@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+   <head>
+    <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="style.css"/>
+   </head>
+
+<body>
+
+  <header class="desk-header">
+
+      <div class="logo-cont desk">
+          <a href="#"><img class="logo1" src="img/desk-logo1.png" alt=""></a>
+          <a href="#"><img class="logo2" src="img/desk-logo2.png" alt=""></a>
+      </div>
+      <a href="#" class="logo-mobile"><img class="logo2" src="img/mobile-logo.png" alt=""></a>
+
+
+        <div class="hamburger-menu">
+          <input type="checkbox" id="open-nav"/>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <nav id="mobile-nav">
+          <ul id="mobile-list">
+            <label for="">Site Link</label>
+            <li class="nav-list active"><a href="">Home</a></li>
+            <li class="nav-list"><a href="">About Us</a></li>
+            <li class="nav-list"><a href="">Insights</a></li>
+            <li class="nav-list"><a href="">Events</a></li>
+            <li class="nav-list"><a href="">Contact Us</a></li>
+          </ul>
+        </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-header">
+      <h1>ACME Wealth</br>
+        Management Platforms</h1>
+      <p>Investment excellence.</p>
+      <p>Diversity of thought.</p>
+      <p>Organizational strength.</p>
+    </div>
+  </section>
+
+  <section class="insights">
+    <div class="insights-wrapper">
+
+      <h2>ACME Insights</h2>
+      <p>How are factors being used around the world?</p>
+
+      <!---Desktop-->
+      <div class="insights-category desk">
+
+        <div class="insights-tile one">
+          <div>
+            <img src="img/img-global.jpg" alt="">
+          </div>
+            <h3>Global Factor</br>
+              Investing Study</h3>
+        </div>
+
+        <div class="insights-tile two">
+          <div>
+            <img src="img/img-outlook.jpg" alt="">
+            </div>
+            <h3>2019</br> 
+              Outlook</h3>
+        </div>
+
+        <div class="insights-tile three">
+          <div>
+            <img src="img/img-capital.jpg" alt="">
+          </div>
+            <h3>Capital Market</br>
+              Assumptions</h3>
+        </div>
+
+      </div>
+
+      <!--Mobile-->
+      <div class="insights-main">
+        <div class="insights-category mobile" id="slidesWrapper">
+
+          <div id="slideTile" class="insights-tile one">
+            <div>
+              <img src="img/img-global.jpg" alt="">
+            </div>
+              <h3>Global Factor</br>
+                Investing Study</h3>
+          </div>
+
+          <div class="insights-tile two">
+            <div>
+              <img src="img/img-outlook.jpg" alt="">
+              </div>
+              <h3>2019</br> 
+                Outlook</h3>
+          </div>
+
+          <div class="insights-tile three">
+            <div>
+              <img src="img/img-capital.jpg" alt="">
+            </div>
+              <h3>Capital Market</br>
+                Assumptions</h3>
+          </div>
+
+        </div>
+
+        <div class="slides">
+          <span class="btn active" onclick="currentSlide(0)"></span>
+          <span class="btn" onclick="currentSlide(1)"></span>
+          <span class="btn" onclick="currentSlide(2)"></span>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <section class="commitment">
+    <div class="commitment-wrapper">
+      <h2>Our Commitment to Professionals</h2>
+      <p>We help our partners deliver industry leading results with a commitment to excellence,
+        thought-provoking insights and experienced distribution. We are laser focused on our shared goal
+          – helping clients achieve their objectives. </p>
+      <a href="#">Contact Us</a>
+  </div>
+  </section>
+
+  <section class="events">
+    <div class="events-wrapper">
+
+      <h2>Upcoming <span>Events</span></h2>
+      <p>This needs a great tagline, but I’ll fill it in later</p>
+
+      <!--Desktop-->
+      <div class="events-category desk">
+
+        <div class="events-tile one">
+          <span class="date">
+            <p>JAN</p>
+            <p>28</p>
+          </span>
+          <h3>Insight Exchange Network</h3>
+          <p>Join us for this conference showcasing innovation.</p>
+          <a href="#">Get More Insight</a>
+          <div class="location">Chicago, IL</div>
+        </div>
+
+        <div class="events-tile two">
+          <span class="date">
+            <p>FEB</p>
+            <p>12</p>
+          </span>
+          <h3>Citywide Buyer’s Retreat</h3>
+          <p>Find out how banks are responding to the changing future of interest...</p>
+          <a href="#">Get More Insight</a>
+          <div class="location">The Wagner, New York </div>
+        </div>
+
+        <div class="events-tile three">
+          <span class="date">
+            <p>MAY</p>
+            <p>6</p>
+          </span>
+          <h3>Research Exchange</h3>
+          <p>Find the best online resources to help with your investments...</p>
+          <a href="#">Get More Insight</a>
+          <div class="location">London, England</div>
+        </div>
+
+      </div>
+
+      <!--Mobile-->
+      <div class="events-main">
+
+        <div class="events-category" id="eventsWrapper">
+          <div class="events-tile one" id="eventsTile">
+            <span class="date">
+              <p>JAN</p>
+              <p>28</p>
+            </span>
+            <h3>Insight Exchange Network</h3>
+            <p>Join us for this conference showcasing innovation.</p>
+            <a href="#">Get More Insight</a>
+            <div class="location">Chicago, IL</div>
+          </div>
+
+          <div class="events-tile two">
+            <span class="date">
+              <p>FEB</p>
+              <p>12</p>
+            </span>
+            <h3>Citywide Buyer’s Retreat</h3>
+            <p>Find out how banks are responding to the changing future of interest...</p>
+            <a href="#">Get More Insight</a>
+            <div class="location">The Wagner, New York </div>
+          </div>
+
+          <div class="events-tile three">
+            <span class="date">
+              <p>MAY</p>
+              <p>6</p>
+            </span>
+            <h3>Research Exchange</h3>
+            <p>Find the best online resources to help with your investments...</p>
+            <a href="#">Get More Insight</a>
+            <div class="location">London, England</div>
+          </div>
+        </div>
+
+        <div class="slides">
+          <span class="btn2 active" onclick="currentSlide2(0)"></span>
+          <span class="btn2" onclick="currentSlide2(1)"></span>
+          <span class="btn2" onclick="currentSlide2(2)"></span>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-wrapper">
+    <span>
+      <p>Call us at <a href="tel:111-222-3333">111-222-3333
+      </a></br>for more information</p>
+    </span>
+    <span class="socials">
+      <p>Social Share</p>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-linkedin"></a>
+      <a href="#" class="fa fa-envelope"></a>
+      
+    </span>
+  </div>
+    <nav class="mobile-nav-footer">
+      <div class="legals">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Use</a>
+      </div>
+      <ul id="mobile-list">
+        <label for="">Site Link</label>
+        <li class="nav-list active"><a href="">Home</a></li>
+        <li class="nav-list"><a href="">About Us</a></li>
+        <li class="nav-list"><a href="">Insights</a></li>
+        <li class="nav-list"><a href="">Events</a></li>
+        <li class="nav-list"><a href="">Due Dilligence</a></li>
+        <li class="nav-list"><a href="">Contact Us</a></li>
+      </ul>
+    </nav>
+  </footer>
+
+
+<script>
+ 
+    const open_nav = document.getElementById("open-nav");
+    const mobile_nav = document.getElementById("mobile-nav");
+    const mobile_list = document.getElementById("mobile-list");
+
+    open_nav.addEventListener('change', (event) => {
+      if (event.currentTarget.checked) {
+        mobile_nav.classList.add("open");
+        mobile_list.classList.add("open");
+      } else {
+        mobile_nav.classList.remove("open");
+        mobile_list.classList.remove("open");
+      }
+    })
+
+    /*Firstt slide*/
+    const slidesWraper = document.getElementById("slidesWrapper");
+    const slideTile = document.getElementById("slideTile");
+    
+    
+    var btn = document.getElementsByClassName("btn");
+    const currentSlide = (ind) => {
+      
+      var slidesWrapWidth = slidesWraper.offsetWidth;
+      var slideTileWidth = slideTile.offsetWidth;
+      console.log(slideTileWidth)
+
+      if(ind === 0 ){
+        slidesWraper.style.transform = 'translateX(0px)';
+        slidesWraper.style.transition = '0.6s ease';
+      }
+      else if( ind === 1){
+        slidesWraper.style.transform = `translateX(-${slideTileWidth + 20}px)`;
+        slidesWraper.style.transition = '0.6s ease';
+
+      }
+      else{
+        if (slidesWrapWidth <= 240){
+          slidesWraper.style.transform = `translateX(-${(slideTileWidth + 20)* 2}px)`;
+        }
+        else{
+          slidesWraper.style.transform = `translateX(-${slideTileWidth * 2}px)`;
+        }
+        
+        slidesWraper.style.transition = '0.6s ease';
+      }
+
+    for (i = 0; i < btn.length; i++) {
+      btn[i].className = btn[i].className.replace(" active", "");
+    }
+    btn[ind].className += " active";
+
+  }
+
+  /*Second slide*/
+  const eventsWraper = document.getElementById("eventsWrapper");
+    const eventsTile = document.getElementById("eventsTile");
+    var btn2 = document.getElementsByClassName("btn2");
+
+    const currentSlide2 = (ind) => {
+      
+      var eventsWrapWidth = eventsWraper.offsetWidth;
+      var eventsTileWidth = eventsTile.offsetWidth;
+
+      if(ind === 0 ){
+        eventsWraper.style.transform = 'translateX(0px)';
+        eventsWraper.style.transition = '0.6s ease';
+      }
+      else if( ind === 1){
+        eventsWraper.style.transform = `translateX(-${ eventsTileWidth + 20}px)`;
+        eventsWraper.style.transition = '0.6s ease';
+      }
+      else{
+        if (eventsWrapWidth <= 240){
+          eventsWraper.style.transform = `translateX(-${( eventsTileWidth + 20)* 2}px)`;
+        }
+        else{
+          eventsWraper.style.transform = `translateX(-${ eventsTileWidth * 2}px)`;
+        }
+        eventsWraper.style.transition = '0.6s ease';
+      }
+
+    for (i = 0; i < btn.length; i++) {
+      btn2[i].className = btn2[i].className.replace(" active", "");
+    }
+    btn2[ind].className += " active";
+
+  }
+    
+</script>
+</body>
+</html>
